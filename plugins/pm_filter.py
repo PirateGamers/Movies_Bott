@@ -97,7 +97,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton("HOW TO DOWNLOAD 🤔", url="https://t.me/srilinks4k/47"),]
+    [InlineKeyboardButton("HOW TO DOWNLOAD 🤔", url="https://t.me/TAMIL_MOVIES_UPDATE_ms/322"),]
 )
 
     if n_offset == 0:
@@ -426,7 +426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/srilinks4k')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+AaJO1Ej6T441YjQ1')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -682,7 +682,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton("How to download 🤔", url="https://t.me/srilinks4k/47"),]
+    [InlineKeyboardButton("How to download 🤔", url="https://t.me/TAMIL_MOVIES_UPDATE_ms/322"),]
 )
 
     if offset != "":
