@@ -12,7 +12,7 @@ class script(object):
 📝 Language: Python 
 🗂️ 𝙳ata Base: MongoDB
 📡 Hosted On: Heroku
-👥 Support Group: <a href=https://t.me/srilinks4ksupport>Supportgroup</a>"""
+👥 Support Group: <a href=https://t.me/+iXKSU62i5ck3YjQ1>Supportgroup</a>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 - SM18FILTERBOT was private repo. 
