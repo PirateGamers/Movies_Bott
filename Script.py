@@ -15,10 +15,10 @@ class script(object):
 👥 Support Group: <a href=https://t.me/+iXKSU62i5ck3YjQ1>Supportgroup</a>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
-- SM18FILTERBOT was private repo. 
-- Source - https://t.me/srilinks4k
+- FILTERBOT was private repo. 
+- Source - https://t.me/+iXKSU62i5ck3YjQ1
 <b>DEVS:</b>
-- <a href=https://t.me/belikeberlin>Berlin</a>"""
+- <a href=https://t.me/Thala_Mob>Thala</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and SM18FILTERbot will respond whenever a keyword is found the message
