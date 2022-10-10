@@ -23,7 +23,7 @@ class script(object):
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and SM18FILTERbot will respond whenever a keyword is found the message
 <b>NOTE:</b>
-1. SM18FILTERBOT should have admin privillage.
+1. FILTERBOT should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 <b>Commands and Usage:</b>
@@ -36,7 +36,7 @@ class script(object):
 - SM18FILTERBOT Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. SM18FILTERBOT supports buttons with any telegram media type.
+2. FILTERBOT supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/SM18FILTERbot)</code>
