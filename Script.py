@@ -7,23 +7,23 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
 
     ABOUT_TXT = """🤖 Bot Name: {}
-👨‍💻 Developer: <a href=https://t.me/belikeberlin>Berlin</a>
+👨‍💻 Developer: <a href=https://t.me/TechnicalBichu>TB</a>
 📚 Framework: pyrogram
 📝 Language: Python 
 🗂️ 𝙳ata Base: MongoDB
 📡 Hosted On: Heroku
-👥 Support Group: <a href=https://t.me/srilinks4ksupport>Supportgroup</a>"""
+👥 Support Group: <a href=https://t.me/download_movies_in_hindi>Supportgroup</a>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
-- SM18FILTERbot was private repo. 
-- Source - https://t.me/Srilinks4k
+- This Bot Is Private Rwpo. 
+- Source - @TechnicalBichu 
 <b>DEVS:</b>
-- <a href=https://t.me/belikeberlin>Berlin</a>"""
+- <a href=https://t.me/TechnicalBichu>TG</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and SM18FILTERbot will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and this bot will respond whenever a keyword is found the message
 <b>NOTE:</b>
-1. SM18FILTERbot should have admin privillage.
+1. This bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 <b>Commands and Usage:</b>
@@ -33,13 +33,13 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
-- SM18FILTERBOT Supports both url and alert inline buttons.
+- This BOT Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
 2. FILTERBOT supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/SM18FILTERbot)</code>
+<code>[Button Text](buttonurl:https://t.me/FILTERbot)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
 
