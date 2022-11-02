@@ -698,7 +698,7 @@ def humanbytes(size):
 
 async def get_shortlink(link):
 
-    shortzy = Shortzy("7bf7a6fc407148d1d56c16564770b6b68a679b46", "atglinks.com")
+    shortzy = Shortzy("f2dd763ea1298ea4da6e08c6f34da5bf08eb5568", "mdiskshortnerlink.com")
                       
 
 
