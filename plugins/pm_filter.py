@@ -67,7 +67,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -77,7 +77,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}", 
-                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -97,7 +97,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton("HOW TO DOWNLOAD 🤔", url="https://t.me/Srilinks4k/47"),]
+    [InlineKeyboardButton("HOW TO DOWNLOAD 🤔", url="https://t.me/How_To_Open_Links_23"),]
 )
 
     if n_offset == 0:
@@ -109,13 +109,13 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
+             InlineKeyboardButton("Next Page ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("⏪ Back Page", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("Next Page ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -363,12 +363,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                dulink = await get_shortlink(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                dulink = await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
                 print(dulink)
                 await query.answer(url=dulink)
                 return
             elif settings['botpm']:
-                dulink = await get_shortlink(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                dulink = await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
                 print(dulink)
                 await query.answer(url=dulink)
                 return
@@ -383,7 +383,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
-            dulink = await get_shortlink(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+            dulink = await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
             print(dulink)
             await query.answer(url=dulink)
         except Exception as e:
@@ -425,8 +425,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Srilinks4k')
+            InlineKeyboardButton('🔍 Search', This Doesn'Work Here Add Me To group To Make It Work''),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/BichuHub)
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -661,7 +661,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=pre_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
             ]
             for file in files
@@ -671,7 +671,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}",
-                    url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=pre_{file.file_id}")
+                    url=await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -682,7 +682,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton("How to download 🤔", url="https://t.me/Srilinks4k/47"),]
+    [InlineKeyboardButton("How to download 🤔", url="https://t.me/How_To_Open_Links_23"),]
 )
 
     if offset != "":
